@@ -8,9 +8,44 @@
    align-items: stretch;
    justify-content: space-around;
 }
+/* @media(max-width:730px){
+  .bodyStyle {
+    margin : 40px;
+    width : 40%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+  }
+} */
+
+/*  about us page */
+.aboutMain {
+  margin: 50px;
+  display: flex;
+  color: var(--text);
+  flex-direction:column;
+}
+.aboutMain h1 {
+  font-weight : 700;
+  font-size: 4vw;
+  display: flex;
+  align-items : flex-start;
+}
+.upperContainer, .lowerContainer {
+  display: flex;
+  flex-direction : row;
+  font-size : 2vw;
+}
+.upperImg {
+  width : 40%;
+}
 @media(max-width:730px){
-  .landingmain {
-    display: flex;
-    flex-direction : row;
+  .upperContainer, .lowerContainer {
+    width: 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
   }
 }
