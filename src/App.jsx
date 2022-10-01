@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// page import
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
 import './App.css'
@@ -30,12 +31,11 @@ export default function App() {
   const [user] = useAuthState(auth);
   return (
     <div className="App">
-      <LandingPage />
-      <About />
-
       <BrowserRouter>
         <Routes>
-          <Route path="/chat" element={<Chat />} />
+          <Route exact path="/" element={<LandingPage/>}/>
+          <Route path="/" element={<About/>}/>
+          <Route path="/chat" element={<Chat/>} />
         </Routes>
       </BrowserRouter>
 
