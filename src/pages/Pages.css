@@ -1,0 +1,16 @@
+.Landingmain {
+   height: 100vh;
+}
+.bodyStyle {
+   height: 90vh;
+   display: flex;
+/*    border: 1px solid white; */
+   align-items: stretch;
+   justify-content: space-around;
+}
+@media(max-width:730px){
+  .landingmain {
+    display: flex;
+    flex-direction : row;
+  }
+}

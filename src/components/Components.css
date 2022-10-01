@@ -1,0 +1,123 @@
+/* navbar  */
+.navbar {
+   background-color: var(--background);
+   overflow: hidden;
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+   align-items: baseline;
+}
+.redirect {
+   margin: 0 30px 0 30px;
+}
+
+/* button */
+.btn {
+   border-radius: 3px;
+   color: #F0F7EE;
+   /* font-size: 20px; */
+   background: #FF0054;
+   /* padding: 10px 20px 10px 20px; */
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 10%;
+   padding: 10px 0 10px 0;
+   cursor: pointer;
+}
+@media(max-width:730px){
+  .btn {
+    display: block;
+    margin: 0.4em auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* right container */
+.rightContainer {
+/*    border: 1px solid white; */
+   height: 100vh;
+   display: flex;
+}
+.rightImg {
+  width: 80%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.object {
+animation: action 1s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* left container  */
+.leftContainer {
+/*    border: 1px solid white; */
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+.title {
+   color: var(--text);
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   font-size: 9vw;
+  font-weight : 900;
+}
+.gradient-text {
+  background-color: #CA4246;
+   background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+.gradient-text:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+.subtitle {
+   color: var(--secondary);
+   text-transform: uppercase;
+   font-size: 3vw;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: -50px;
+}
