@@ -1,10 +1,10 @@
-import 
+import LandingPage from "./pages/LandingPage";
 import './App.css'
 
 export default function App() {
   return (
-    <main className="App">
-        <LandingPage/>
-    </main>
+    <div className="App">
+      <LandingPage/>
+    </div>
   )
 }
