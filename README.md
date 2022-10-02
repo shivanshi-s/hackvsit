@@ -1,17 +1,35 @@
-## Running React on Repl.it
+# HACKVSIT4.0 - HELPACE
+HackVSIT 4.0, organized by the Association of Computer Enthusiasts, is an annual event that congregates the developers' community of students to build awesome stuff. Within a span of 24 hours, participant teams aim to build innovative and practically feasible solutions to prevalent social issues; all of that with a pinch of fun and lots of brainstorming.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## HELPACE - CARE AND HELP FOR ALL
+There are over 26.8 million people with disabilities in India and the number grows every
+year. It becomes really important to build an environment which provides a safe and a
+free space to accommodate their needs and create a welcoming environment.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## WHAT IT DOES
+As technology becomes more inclusive, our idea is to create a webApp that -
+* Create a public forum for real-time feedback about places which
+are inclusive or not by the visitors
+* Spread awareness and help make public spaces more inclusive.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## CHALLENGES WE RAN INTO 
+Working with Firebase was something new for us. We ran into inital configuration trouble but eventually found a way out and learn a new piece of tech!
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## WHAT WE LEARNT
+Being in our first offline hackathon, we had a great deal of learnings while having fun :P We learnt time management, dealing with new technologies to try out like Firebase and vite. We also learnt to not take up more tasks than we can, which we believe was the most important lesson as a team.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## WHATS NEXT FOR HELPACE?
+Lots of things!
+We have a proper path laid out make this project more accessible and inclusive towards specially abled people.
+Some of our steps moving forward would be to include
+ * Including the talkback feature for easy navigation on the web app.
+ * Accessing live location and finding accessible places nearby
+ * Manage the database for handling large number of users.
 
-### Typescript
+### That was it from team - BIT BLEND 
+Built by -
+* Shivanshi Saxena
+* Pranav Nair
+using React ⚡ and Firebase 🔥
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Let us know if you liked our idea by giving it a star!
