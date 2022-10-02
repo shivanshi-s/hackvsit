@@ -1,5 +1,14 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+:root {
+   --background : #424242;
+   --text : #F0F7EE;
+   --secondary : #FF0054;
+}
+body {
+   background-color: #424242;
+    font-family : 'Poppins', sans-serif;
+}
+.leaflet-container {
+  width:50%;
+  height:50vh;
 }
