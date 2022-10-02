@@ -34,7 +34,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<LandingPage/>}/>
-          <Route path="/" element={<About/>}/>
+          <Route path="/about" element={<About/>}/>
           <Route path="/chat" element={<Chat/>} />
         </Routes>
       </BrowserRouter>
